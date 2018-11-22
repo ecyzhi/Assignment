@@ -1,0 +1,26 @@
+﻿body {
+    font-family:'Segoe UI';
+}
+
+#registerTiles{
+    text-align:center;
+    background-color:rgba(255,255,255,0.5);
+}
+
+.homeRegister{
+    display:inline-block;
+    width:20%;
+    padding:20px;
+}
+
+.btnHomeRegister{
+    border-radius:10px;
+    font-size:18px;
+    background-color:palegreen;
+    padding:10px;
+}
+
+#guidelinesContainer{
+    text-align:center;
+    background-color:azure;
+}
