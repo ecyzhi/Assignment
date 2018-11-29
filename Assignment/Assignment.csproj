@@ -67,12 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="g6.png" />
-    <Content Include="g6white.png" />
+    <Content Include="Image\g6white.png" />
     <Content Include="Global.asax" />
     <Content Include="Homepage.css" />
     <Content Include="HomepageAnon.aspx" />
     <Content Include="HomepageAnon.css" />
+    <Content Include="Image\guideAnswer.png" />
+    <Content Include="Image\guideCreate.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

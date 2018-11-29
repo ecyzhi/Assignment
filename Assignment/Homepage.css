@@ -1,4 +1,8 @@
-﻿body {
+﻿* {
+    font-family: 'Avenir LT Std';
+}
+
+body {
     background-color:dodgerblue;
     min-width:1200px;
 }
@@ -64,4 +68,9 @@ footer{
 footer a{
     color:white;
     text-decoration:none;
+}
+
+.contentWrapper{
+    margin-left:50px;
+    margin-right:50px;
 }

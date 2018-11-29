@@ -1,8 +1,4 @@
-﻿body {
-    font-family:'Segoe UI';
-}
-
-#registerTiles{
+﻿#registerTiles{
     font-size:large;
     text-align:center;
 }
@@ -21,7 +17,14 @@
     padding:10px;
 }
 
-#guidelinesContainer{
-    text-align:center;
-    background-color:azure;
+#guidelinesContainer {
+    text-align: center;
+    background-color: transparent;
 }
+
+.guidelines{
+    background-color:white;
+    padding:20px;
+    margin:20px;
+}
+

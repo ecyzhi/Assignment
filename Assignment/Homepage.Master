@@ -15,11 +15,13 @@
             <nav>
                 <ul>
                     <li style="float: left;"><a href="#">
-                        <img src="g6white.png" style="height: 50px;" /></a></li>
+                        <img src="Image/g6white.png" style="height: 50px;" /></a></li>
                     <li><a href="#" class="navMenu">Login</a></li>
                     <li><a href="#" class="navMenu">Contact</a></li>
                     <li class="dropdown"><a href="javascript:void(0)" class="navMenu" id="dropdownMenu">Assessment</a>
                         <div class="dropdown-content">
+                            <a href="#">Create an Assessment</a>
+                            <a>--- Answer Assessment: ---</a>
                             <a href="#">Multiple Choices Assessment</a>
                             <a href="#">Essay or Written Assessment</a>
                         </div>
@@ -30,7 +32,7 @@
         </header>
 
 
-        <div>
+        <div class="contentWrapper">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
@@ -54,7 +56,7 @@
             </div>
 
             <div style="float: left; text-align: center;">
-                <img src="g6white.png" style="height: 120px;" />
+                <img src="Image/g6white.png" style="height: 120px;" />
             </div>
 
             <div style="font-size:smaller; width:95%; padding-top:150px; text-align:right;">
