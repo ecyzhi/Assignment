@@ -67,11 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="g6.png" />
+    <Content Include="g6white.png" />
     <Content Include="Global.asax" />
     <Content Include="Homepage.css" />
     <Content Include="HomepageAnon.aspx" />
     <Content Include="HomepageAnon.css" />
-    <Content Include="SecureAPlus-For-Education-Background.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

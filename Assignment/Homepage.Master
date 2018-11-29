@@ -11,10 +11,57 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <header>
+            <nav>
+                <ul>
+                    <li style="float: left;"><a href="#">
+                        <img src="g6white.png" style="height: 50px;" /></a></li>
+                    <li><a href="#" class="navMenu">Login</a></li>
+                    <li><a href="#" class="navMenu">Contact</a></li>
+                    <li class="dropdown"><a href="javascript:void(0)" class="navMenu" id="dropdownMenu">Assessment</a>
+                        <div class="dropdown-content">
+                            <a href="#">Multiple Choices Assessment</a>
+                            <a href="#">Essay or Written Assessment</a>
+                        </div>
+                    </li>
+                    <li><a href="#" class="navMenu">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+
+
+        <footer style="padding: 20px 80px 20px 80px;">
+            <div style="float: left; width: 40%;">
+                <a href="#" style="font-size: large;"><strong>Home</strong></a><br />
+                <a href="#">Guideline for Lecturer</a><br />
+                <a href="#">Guideline for Student</a><br />
+                <a href="#">Features</a><br />
+                <a href="#">FAQ</a><br />
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div style="float: left; width: 30%;">
+                <span style="font-size: large;"><strong>Assessment</strong></span><br />
+                <a href="#">Courses</a><br />
+                <a href="#">Multiple Choice assessment</a><br />
+                <a href="#">Essay or Written assessment</a>
+            </div>
+
+            <div style="float: left; text-align: center;">
+                <img src="g6white.png" style="height: 120px;" />
+            </div>
+
+            <div style="font-size:smaller; width:95%; padding-top:150px; text-align:right;">
+                | Wong Wei Yao, Wong Yueh Ping, Yap Sui Ming, Yeap Lee Zhi BAIT2113 2018
+            </div>
+        </footer>
+
     </form>
 </body>
 </html>
